@@ -1,0 +1,15 @@
+[submodule "doc"]
+	path = doc
+	url = https://github.com/TarsNET/doc.git
+[submodule "config"]
+	path = config
+	url = https://github.com/TarsNET/config.git
+[submodule "codecs"]
+	path = codecs
+	url = https://github.com/TarsNET/codecs.git
+[submodule "rpc"]
+	path = rpc
+	url = https://github.com/TarsNET/rpc.git
+[submodule "log"]
+	path = log
+	url = https://github.com/TarsNET/log.git

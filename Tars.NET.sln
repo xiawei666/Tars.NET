@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tars.Net.Abstractions", "rpc\src\Tars.Net.Abstractions\Tars.Net.Abstractions.csproj", "{B73E0F79-8A7B-4E6A-941A-897D50A43125}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rpc", "rpc", "{1CAE620E-5FDB-4347-AE0C-D0588631684F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tars.Net.Core", "rpc\src\Tars.Net.Core\Tars.Net.Core.csproj", "{B4F4D387-1226-41D5-B6F8-F598B9DB66D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tars.Net.DotNetty", "rpc\src\Tars.Net.DotNetty\Tars.Net.DotNetty.csproj", "{3C3EFC3E-DD46-4D7F-A61B-78647077929C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tars.Net.Extensions.AspectCore", "rpc\src\Tars.Net.Extensions.AspectCore\Tars.Net.Extensions.AspectCore.csproj", "{4B10FA19-3BCA-4290-8C57-C1A042D935E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tars.Net.Codecs", "codecs\src\Tars.Net.Codecs\Tars.Net.Codecs.csproj", "{1E479749-2AED-4162-AD84-FEBDBCD2D6CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "codecs", "codecs", "{D5BB6115-F9C0-4B10-945F-791E2BCFC932}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tars.Net.UT", "rpc\test\Tars.Net.UT\Tars.Net.UT.csproj", "{67C17168-85E8-4F67-BC68-46693A932549}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D4935076-F4CC-4C7C-8761-69D0742BB169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{ABD12122-160B-4DDC-A6B3-01B0B889A3E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TcpClient", "rpc\examples\Tcp\TcpClient\TcpClient.csproj", "{09940B3D-3872-45C9-B27F-88906859FA0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TcpCommon", "rpc\examples\Tcp\TcpCommon\TcpCommon.csproj", "{4159D184-20A7-4B9F-B8E1-D1B581B917D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TcpServer", "rpc\examples\Tcp\TcpServer\TcpServer.csproj", "{FD064740-F0AA-440E-835F-FFE7197C4D8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "log", "log", "{476BE05C-7A2A-4E67-858F-30B2B59F1BAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{D2744421-F661-41E9-AD35-D7C8845B7D19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18836F71-0632-4A94-B0D9-46EB68003D71}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B73E0F79-8A7B-4E6A-941A-897D50A43125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73E0F79-8A7B-4E6A-941A-897D50A43125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73E0F79-8A7B-4E6A-941A-897D50A43125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73E0F79-8A7B-4E6A-941A-897D50A43125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F4D387-1226-41D5-B6F8-F598B9DB66D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F4D387-1226-41D5-B6F8-F598B9DB66D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F4D387-1226-41D5-B6F8-F598B9DB66D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F4D387-1226-41D5-B6F8-F598B9DB66D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3EFC3E-DD46-4D7F-A61B-78647077929C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3EFC3E-DD46-4D7F-A61B-78647077929C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3EFC3E-DD46-4D7F-A61B-78647077929C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3EFC3E-DD46-4D7F-A61B-78647077929C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B10FA19-3BCA-4290-8C57-C1A042D935E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B10FA19-3BCA-4290-8C57-C1A042D935E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B10FA19-3BCA-4290-8C57-C1A042D935E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B10FA19-3BCA-4290-8C57-C1A042D935E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E479749-2AED-4162-AD84-FEBDBCD2D6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E479749-2AED-4162-AD84-FEBDBCD2D6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E479749-2AED-4162-AD84-FEBDBCD2D6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E479749-2AED-4162-AD84-FEBDBCD2D6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C17168-85E8-4F67-BC68-46693A932549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C17168-85E8-4F67-BC68-46693A932549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C17168-85E8-4F67-BC68-46693A932549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C17168-85E8-4F67-BC68-46693A932549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09940B3D-3872-45C9-B27F-88906859FA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09940B3D-3872-45C9-B27F-88906859FA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09940B3D-3872-45C9-B27F-88906859FA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09940B3D-3872-45C9-B27F-88906859FA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4159D184-20A7-4B9F-B8E1-D1B581B917D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4159D184-20A7-4B9F-B8E1-D1B581B917D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4159D184-20A7-4B9F-B8E1-D1B581B917D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4159D184-20A7-4B9F-B8E1-D1B581B917D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD064740-F0AA-440E-835F-FFE7197C4D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD064740-F0AA-440E-835F-FFE7197C4D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD064740-F0AA-440E-835F-FFE7197C4D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD064740-F0AA-440E-835F-FFE7197C4D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B73E0F79-8A7B-4E6A-941A-897D50A43125} = {1CAE620E-5FDB-4347-AE0C-D0588631684F}
+		{B4F4D387-1226-41D5-B6F8-F598B9DB66D5} = {1CAE620E-5FDB-4347-AE0C-D0588631684F}
+		{3C3EFC3E-DD46-4D7F-A61B-78647077929C} = {1CAE620E-5FDB-4347-AE0C-D0588631684F}
+		{4B10FA19-3BCA-4290-8C57-C1A042D935E9} = {1CAE620E-5FDB-4347-AE0C-D0588631684F}
+		{1E479749-2AED-4162-AD84-FEBDBCD2D6CA} = {D5BB6115-F9C0-4B10-945F-791E2BCFC932}
+		{67C17168-85E8-4F67-BC68-46693A932549} = {D4935076-F4CC-4C7C-8761-69D0742BB169}
+		{09940B3D-3872-45C9-B27F-88906859FA0B} = {ABD12122-160B-4DDC-A6B3-01B0B889A3E7}
+		{4159D184-20A7-4B9F-B8E1-D1B581B917D0} = {ABD12122-160B-4DDC-A6B3-01B0B889A3E7}
+		{FD064740-F0AA-440E-835F-FFE7197C4D8B} = {ABD12122-160B-4DDC-A6B3-01B0B889A3E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86088B2A-1FC0-4825-9AE0-1A8281786079}
+	EndGlobalSection
+EndGlobal
